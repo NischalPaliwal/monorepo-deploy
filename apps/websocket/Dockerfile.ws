@@ -2,7 +2,6 @@ FROM oven/bun:1
 
 WORKDIR /usr/src/app
 
-## Can you optimise this?
 COPY . .
 
 RUN bun install
