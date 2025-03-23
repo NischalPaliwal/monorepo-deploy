@@ -9,7 +9,8 @@
     "check-types": "turbo run check-types",
     "generate:db": "cd packages/db && bunx prisma generate && cd ../..",
     "start:backend": "cd apps/backend && bun install && bun run index.ts",
-    "start:ws": "cd apps/websocket && bun install && bun run index.ts"
+    "start:ws": "cd apps/websocket && bun install && bun run index.ts",
+    "start:frontend": "cd apps/web && bun run start"
   },
   "devDependencies": {
     "prettier": "^3.5.3",

@@ -16,4 +16,4 @@ RUN bun run generate:db
 
 EXPOSE 8081
 
-CMD ["bun", "start:ws"]
+CMD ["bun", "run", "start:ws"]

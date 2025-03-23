@@ -19,4 +19,4 @@ RUN DB_URL=$DB_URL bunx turbo build --filter=web...
 
 EXPOSE 3000
 
-CMD ["bun", "start:frontend"]
+CMD ["bun", "run", "start:frontend"]
