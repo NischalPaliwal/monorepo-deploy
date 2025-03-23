@@ -2,7 +2,7 @@ FROM oven/bun:1
 
 WORKDIR /usr/src/app
 
-COPY . .
+COPY ./apps/ws ./apps/ws
 
 RUN bun install
 
