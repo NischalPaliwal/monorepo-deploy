@@ -1,5 +1,5 @@
 {
-  "name": "db",
+  "name": "backend",
   "module": "index.ts",
   "type": "module",
   "private": true,
@@ -10,10 +10,8 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@prisma/client": "^6.5.0",
-    "prisma": "^6.5.0"
-  },
-  "exports": {
-	"./client": "./index.ts"
+    "@types/express": "^5.0.1",
+    "express": "^4.21.2",
+    "db": "*"
   }
 }
