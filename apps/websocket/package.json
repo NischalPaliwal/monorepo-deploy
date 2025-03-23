@@ -10,8 +10,6 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "bun-types": "^1.2.5",
-    "db": "*",
-    "ws": "^8.18.1"
+    "db": "*"
   }
 }
